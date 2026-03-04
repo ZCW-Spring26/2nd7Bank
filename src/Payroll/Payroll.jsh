@@ -31,7 +31,7 @@ class Timecard {
     }
 }
 
-public class ReadData {
+public class Payroll {
     public static ArrayList<Timecard> readData(String fileName) {
         Timecard t = null;
         try {
@@ -71,7 +71,7 @@ public class ReadData {
 }
 
 // Start with the reading of data into a list
-ArrayList<Timecard> input_data = ReadData.readData("input.data");
+ArrayList<Timecard> input_data = Payroll.readData("input.data");
 
 String outp;
 // print out the data in the list. See `toString()` method above.
